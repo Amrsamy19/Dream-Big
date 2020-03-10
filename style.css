@@ -104,7 +104,13 @@ header img{
     }
 }
 
-@media screen and (max-width: 768px){
+@media only screen and (max-width: 900px){
+	html{
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 750px){
     img{
         position: absolute;
         width: 100%;
