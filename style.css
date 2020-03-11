@@ -123,6 +123,7 @@ header img{
         height: auto;
         top: 50%;
         left: 20%;
+        align-items: center;
     }
     header button{
         position: absolute;
