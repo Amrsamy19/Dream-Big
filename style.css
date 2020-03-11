@@ -157,10 +157,10 @@ header img{
     header button{
         font-size: 20px;
         position: absolute;
-        width: 40%;
+        width: 50%;
         height: auto;
         top: 65%;
-        left: 25%;
+        left: 45%;
     }
     nav ul li{
         font-size: 14px;
