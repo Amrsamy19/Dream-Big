@@ -40,7 +40,7 @@ nav ul li{
 nav a{
     color: #fbfbfb;
     background-color: #aa6b6b;
-    padding: 10px 30px;
+    padding: 0.6rem 2rem;
     border-radius: 10px;
     text-decoration: none;
 }
@@ -106,64 +106,70 @@ header img{
 
 @media only screen and (max-width: 900px){
 	html{
-		font-size: 14px;
-	}
+		font-size: 3rem;
+    }
+    header p{
+        margin-left: 1rem;
+    }
+    nav ul li{
+        padding: 0rem 0.5rem;
+    }
+    nav a{
+        padding: 0rem 1.2rem;
+        display: flex;
+        justify-content: center; 
+    }
 }
 
 @media screen and (max-width: 750px){
     img{
-        position: absolute;
         width: 100%;
-        height: auto;
-        left: 20%;
+        margin-left: 1.5rem;
     }
     p{
         position: absolute;
         width: 100%;
-        height: auto;
         top: 50%;
-        left: 20%;
+        left: 15%;
         align-items: center;
     }
     header button{
         position: absolute;
         width: 30%;
         height: auto;
-        top: 75%;
-        left: 40%;
+        top: 80%;
+        left: 35%;
     }
     nav ul{
         position: fixed;
-        width: 80%;
+        width: 100%;
         flex-direction: row;
-        margin-top: 20px;
+        margin: 0.2rem 0;
+    }
+    nav a{
+        padding: 0.16rem 0.5rem;
     }
 }
 
 @media screen and (max-width: 500px){
     header img{
-        position: absolute;
         width: 100%;
-        top: 50%;
-        left: 10%;
+        margin: 0 auto;
     }
     header p{
-        font-size: 16px;
-        position: absolute;
+        font-size: 0.6rem;
         width: 100%;
         align-items: center;
-        top: 50%;
-        left: 5%;
+        margin: 0.5rem -1rem;
     }
     header button{
-        font-size: 20px;
+        font-size: 0.45rem;
         position: absolute;
         width: 50%;
-        height: auto;
-        top: 65%;
+        top: 75%;
         left: 25%;
     }
     nav ul li{
-        font-size: 14px;
+        font-size: 0.3rem;
     }
 }
